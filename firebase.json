@@ -1,0 +1,34 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "eprojectbabyshop",
+          "appId": "1:809290750100:android:a0324dba8b0c013f46bc81",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "eprojectbabyshop",
+          "configurations": {
+            "android": "1:809290750100:android:a0324dba8b0c013f46bc81",
+            "ios": "1:809290750100:ios:6e9e9c382bb973fd46bc81",
+            "macos": "1:809290750100:ios:6e9e9c382bb973fd46bc81",
+            "web": "1:809290750100:web:2321fdeaea27e46f46bc81",
+            "windows": "1:809290750100:web:84f79cbeb6301d1346bc81"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "nam5",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
